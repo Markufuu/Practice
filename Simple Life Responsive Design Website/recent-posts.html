@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Ubuntu:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Recent Posts</title>
+</head>
+<body class="text-grey ff-ubuntu">
+        <!-- Navigation Bar -->
+        <div class="container container-nav bg-white"> <!-- flex-container for navigation bar  -->
+            <div class="logo"> <!-- container for logo  -->
+                <h1 class="ff-lora text-dark fs-600">Living the simple life</h1>
+                <p class=" uppercase text-light fs-100 fw-700" style="letter-spacing: 0.15em; line-height: 2rem;">A blog exploring minimalism in life</p>
+            </div>
+            <nav>
+                <ul class="nav-items">  <!-- flex-container for nav-items  -->
+                    <li><a class="text-grey fs-300 fw-700 uppercase "href="/index.html">Home</a></li>
+                    <li><a class="text-grey fs-300 fw-700 uppercase" href="/about-me.html">About me</a></li>
+                    <li><a class="current-selected text-grey fs-300 fw-700 uppercase" href="/recent-posts.html">Recent Posts</a></li>
+                </ul>
+            </nav>
+        </div> <!-- end of container-nav -->
+
+        <div class="container container-articles">
+            <main>
+                <article class="recent-article">  <!-- Finding simplicty in life  -->
+                    <div class="recent-article-img-container">
+                        <img class="recent-article-img" src="/img/life.jpg" alt="">
+                        <p class="recent-article-date fs-200 fw-400">July 23, 2019  |  3 comments</p>
+                    </div>
+                    <div class="recent-article-description">
+                        <h1 class="recent-article-heading ff-lora text-dark fs-500">Finding simplicity in life</h1>
+                        <p class="recent-article-subheading">Life can get complicated really quickly, but it doesn't have to be! There are many ways to simplify your life, a few of which we've explored in the past. This week we're taking a bit of a approach though, in how you can find simplicity in the life you already living. </p>
+                        <a class="continue-reading text-light ff-ubuntu fs-200 fw-700 uppercase" style="text-decoration:none;" href="">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="recent-article">  <!--Keeping cooking simple  -->
+                    <div class="recent-article-img-container">
+                        <img class="recent-article-img" src="/img/food.jpg" alt="">
+                        <p class="recent-article-date date fs-200 fw-400">July 19, 2019  |  3 comments</p>
+                    </div>
+                    <div class="recent-article-description">
+                        <h1 class="recent-article-heading ff-lora text-dark fs-500">Keeping cooking simple</h1>
+                        <p class="recent-article-subheading">Food is a very important part of everyone's life. If you want to be healthy, you have to eat healthy. One of the easiest ways to do that is to keep your cooking nice and simple. </p>
+                        <a class="continue-reading text-light ff-ubuntu fs-200 fw-700 uppercase" style="text-decoration:none;" href="">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="recent-article">  <!--Simplicity and work  -->
+                    <div class="recent-article-img-container">
+                        <img class="recent-article-img" src="/img/work.jpg" alt="">
+                        <p class="recent-article-date fs-200 fw-400">July 12, 2019  |  3 comments</p>
+                    </div>
+                    <div class="recent-article-description">
+                        <h1 class="recent-article-heading ff-lora text-dark fs-500">Simplicity and work</h1>
+                        <p class="recent-article-subheading">Work is often a major source of stress. People get frustrated, it ruins their relationship with others and it leads to burnout. By keeping your work life as simple as possible, it will help balance everything out.</p>
+                        <a class="continue-reading text-light ff-ubuntu fs-200 fw-700 uppercase" style="text-decoration:none;" href="">continue reading</a>
+                    </div>
+                </article>
+
+                <article class="recent-article"> <!--Simple decorations  -->
+                    <div class="recent-article-img-container">
+                        <img class="recent-article-img" src="/img/deco.jpg" alt="">
+                        <p class="recent-article-date fs-200 fw-400">July 3, 2019  |  3 comments</p>
+                    </div>
+                    <div class="recent-article-description">
+                        <h1 class="recent-article-heading ff-lora text-dark fs-500">Simple decorations</h1>
+                        <p class="recent-article-subheading">A home isn't a home until you've decorated a little. People either don't decorate, or they go overboard and it doesn't have the impact they were hoping for. Staying simple will help draw the eye where you want it to and make things pop like never before. </p>
+                        <a class="continue-reading text-light ff-ubuntu fs-200 fw-700 uppercase" style="text-decoration:none;" href="">continue reading</a>
+                    </div>
+                </article>
+            </main>
+            
+            <aside class="sidebar">
+                <section class="sidebar-container">
+                        <h1 class="sidebar-aboutme-heading ff-ubuntu fs-400 text-dark uppercase" style="letter-spacing: 0.15em;">About me
+                        </h1>
+                        <img class="sidebar-aboutme-img" src="/img/about-me.jpg" alt="">
+                        <p class="text-dark">I find life better, and I'm happier, when things are nice and simple.</p>
+                </section>
+
+                <section class="sidebar-container">
+                            <h1 class="sidebar-recent-heading ff-ubuntu fs-400 text-dark uppercase">Recent posts</h1>
+                            <div class="sidebar-recent-container">
+                                <img class="sidebar-recent-img" src="/img/food.jpg" alt="">
+                                <p class="sidebar-recent-subheading ff-ubuntu fs-400 text-dark uppercase">Keeping cooking simple </p>
+                            </div>
+                            <div class="sidebar-recent-container">
+                                <img class="sidebar-recent-img" src="/img/work.jpg" alt="">
+                                <p class="sidebar-recent-subheading ff-ubuntu fs-400 text-dark uppercase">Simplicity and work</p>
+                            </div>
+                            <div class="sidebar-recent-container">
+                                <img class="sidebar-recent-img" src="/img/deco.jpg" alt="">
+                                <p class="sidebar-recent-subheading ff-ubuntu fs-400 text-dark uppercase">Simple decorations</p>
+                            </div>
+                </section>
+            </aside>
+        </div>
+
+        <footer>
+            <p class="footer-heading text-white">Living the simple life</p>
+            <p class="footer-subheading">Copyright 2019</p>
+        </footer>
+</body>
+</html>
